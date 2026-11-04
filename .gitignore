@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.vscode/
+dist/
+.venv
+
+# au choix
+uv.lock
