@@ -8,5 +8,6 @@ Extensions Python + Jupyter
 uv init    
 uv sync
 uv add --dev jupyterlab   
-uv add numpy matplotlib                                              
+uv add numpy matplotlib
+uv add --dev pytest                                              
 ```
