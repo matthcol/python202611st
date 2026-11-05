@@ -2,7 +2,11 @@
 # module fibonacci
 
 def fibo(n: int) -> tuple[int, int]:
-    """Retourne le couple (F(n), F(n+1)) de la suite de Fibonacci."""
+    """Retourne le couple (F(n), F(n+1)) de la suite de Fibonacci.
+    
+    Argument:
+    - n : rang de la suite
+    """
     a, b = 0, 1
     for _ in range(n):
         a, b = b, a + b
