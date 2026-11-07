@@ -25,6 +25,7 @@ class CityFr:
     def __str__(self) -> str:
         return f"{self.name} ({self.zipcode})"
 
+
     # surcharge d'opérateur +=, -=
     # def __iadd__(self, other: int) -> CityFr:   # python 3.14+
     def __iadd__(self, other: int) -> 'CityFr': # python <3.14
